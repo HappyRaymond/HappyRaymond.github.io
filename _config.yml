@@ -1,133 +1,172 @@
-# Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://HappayRaymond.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://mazhuang.org
+date_format: "ordinal"
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+timezone: Asia/Shanghai
+encoding: "utf-8"
+repository: mzlogin/mzlogin.github.io
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+    jsdelivr:
+        enabled: true
+# 可选组件配置
+components:
+    # 分享
+    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
+    share:
+        enabled: false
+        hide-platforms: qq,facebook
+    # 不蒜子访问统计
+    busuanzi:
+        enabled: false
+        start_date: 2020-05-03
+    # My Popular Repositories
+    side_bar_repo:
+        enabled: true
+        limit: 5
+    # 文章字数统计
+    word_count:
+        enabled: true
+    # 页面右上角，以及「关于」页面的二维码
+    # 修改图片请替换 assets/images/qrcode.jpg
+    qrcode:
+        enabled: true
+        image_alt: 闷骚的程序员
+    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
+    wiki:
+        view: cate
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+highlight_theme: github
 
-# Publish posts or collection documents with a future date.
-future: true
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Zhuang Ma
+organization: 
+organization_url: 
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
-# SNS settings
-RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
+  -
+    href: /categories/
+    label: 分类
 
+#   -
+#     href: /archives/
+#     label: 归档
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+#   -
+#     href: /open-source/
+#     label: 开源
 
+  -
+    href: /wiki/
+    label: 维基
 
+  -
+    href: /links/
+    label: 链接
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+  -
+    href: /about/
+    label: 关于
 
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
 
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk, utterances
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: mzlogin
+    repo: blog-comments
+    oauth:
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: mzlogin
+    repo: blog-comments
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# https://utteranc.es/
+utterances:
+    repo: mzlogin/blog-comments
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
 
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
 
-# Disqus settings
-disqus_username: hux
-
-# Netease settings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "黄玄，前端娱乐圈 NPC，编程语言/编译器初心者 <br> An UI/Frontend dev & designer accidentally growing into a compiler/PL hacker."
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
-
-
-
-# Friends
-friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序（Midare）",
-        href: "http://mida.re/"
-    },{
-        title: "Sherry Woo",
-        href: "https://sherrywoo.me/"
-    },{
-        title: "Kun Qian",
-        href: "http://kunq.me"
-    },{
-        title: "Ebn Zhang",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    }
-]
+# ---------------- #
+#      Google      #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
+    adsense:
+        footer: true
+        sidebar: true 
+        sidebar-detail: true 
+        content_header: false
+        content_footer: false
