@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _site/
 *.sw[po]
 *.~vsd
@@ -7,3 +8,18 @@ _site/
 Gemfile.lock
 .vscode/
 .jekyll-metadata
+=======
+.DS_Store
+Thumbs.db
+db.json
+*.log
+*.pdf
+node_modules/
+public/
+.deploy*/
+.Archive/
+.md_configs.data
+.me_configs.data
+_image/
+.z_sync_configs.data
+>>>>>>> parent of 177db5e (test3)
