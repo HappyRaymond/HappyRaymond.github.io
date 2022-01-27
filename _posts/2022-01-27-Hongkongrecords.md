@@ -38,11 +38,11 @@ tags:
 
   
 5、港币及八达通
-
+  
 
 6、其他
 
-[香港移动的电话储值卡]() (如果只是需要一个香港号码 推荐购买这个,流量少但是有效期是一年，还送1200分钟的港内通话和300分钟的内地通话)
+[香港移动的电话储值卡](https://eshop.hk.chinamobile.com/tc/prepaid-card/detail.html?pid=1864&category=1031&umkey=dailyspecials) (如果只是需要一个香港号码 推荐购买这个,流量少但是有效期是一年，还送1200分钟的港内通话和300分钟的内地通话)
 如果不嫌弃二手，有些电子产品可以在这里购买
 香港二手网站：[dcfever](https://www.dcfever.com/trading/index.php) 、[price](https://www.price.com.hk/)、
 
