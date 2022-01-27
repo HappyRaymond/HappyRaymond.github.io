@@ -38,7 +38,15 @@ tags:
 
   
 5、港币及八达通
-  推荐先在内地兑换一万左右的港币，八达通可以在淘宝买
+  推荐先在内地兑换一万左右的港币，八达通可以在淘宝买.
+  兑换港币可以在银行的app上兑换，然后直接去附近的银行拿就好。
+  以下是兑换港币流程(以交通银行为例)
+  ![点击结汇购汇](\img\blog\hongkongrecords\3.jpg) 
+  ![点击购汇](\img\blog\hongkongrecords\4.jpg) 
+  ![同意个人购汇申请书](\img\blog\hongkongrecords\5.jpg) 
+  ![选择港币 现汇 输入你需要购汇的金额](\img\blog\hongkongrecords\6.jpg)
+  
+
 
 6、其他
 
