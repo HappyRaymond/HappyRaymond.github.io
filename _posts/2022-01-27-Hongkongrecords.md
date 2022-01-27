@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "python爬虫"
+subtitle:   "简单爬虫教程(requests + selenium )"
+date:       2022-01-26 17:58:00
+author:     "Raymond"
+catalog: false
+header-style: text
+tags:
+  - 随笔
+  - 生活
+  - 记录
+---
+> 爬虫是做大数据的基石，在信息时代的今天，我们使用事实、指标和数据来指导和我们的目标、追求和计划一致的战略决策。
+
+
+
+
+
+
