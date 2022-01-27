@@ -1,10 +1,10 @@
 # Site settings
 title: Raymond Blog
-SEOTitle: 刘小霖的博客 | Raymond Blog
+SEOTitle: 刘永霖的博客 | Raymond Blog
 header-img: img/home-bg.jpg
 email: nfsysuliuyonglin@gmail.com
-description: "关于数据与算法，健身与美食 | 刘永霖，Python & Linux Lover，Software Engineer，UI Designer | 这里是 @Raymond 刘小霖 的个人博客，与你一起发现更大的世界。"
-keyword: "刘永霖,刘小霖,Raymond, 博客, 大数据, matlab, c++, python, R语言, 人工智能"
+description: "关于数据与算法，健身与美食 | 刘永霖，Python & Linux Lover，Software Engineer，UI Designer | 这里是 @Raymond 刘永霖 的个人博客，与你一起发现更大的世界。"
+keyword: "刘永霖,Raymond, 博客, 大数据, matlab, c++, python, R语言, 人工智能"
 url: "https://HappayRaymond.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "刘小霖，从嵌入式到机器学习，编程语言:python c/c++, linux系统 <br> Raymond, from embedded to machine learning, programming language: python c/c++, linux system"
+sidebar-about-description: "刘永霖，从嵌入式到机器学习，编程语言:python c/c++, linux系统 <br> Raymond, from embedded to machine learning, programming language: python c/c++, linux system"
 # sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 sidebar-avatar: /img/raymond/human.jpg
