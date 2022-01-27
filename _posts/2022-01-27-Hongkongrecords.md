@@ -16,7 +16,7 @@ tags:
 ## 内地到香港过关
 ### 过关前的准备
 1、签证问题问题，当拿到了香港的visa之后，我们还需要去当地的出入境管理局(或者是公安局)预约办理内地的签证。
-[](\img\blog\hongkongrecords\1.PNG)
+[![](\img\blog\hongkongrecords\1.PNG)](https://msjw.ga.sz.gov.cn/?serviceType=1)
 
 2、来之前需要在淘宝购买一张电话卡用于登记隔离时的身份信息
 ![](\img\blog\hongkongrecords\2.png) 推荐这一张30天有效期+20g流量，应付前期在香港的使用绰绰有余。
@@ -38,7 +38,7 @@ tags:
 
   
 5、港币及八达通
-  
+  推荐先在内地兑换一万左右的港币，八达通可以在淘宝买
 
 6、其他
 
