@@ -3,7 +3,7 @@ layout:     post
 title:      "香港生活"
 subtitle:   "初来香港我们应该做什么？"
 date:       2022-01-26 17:58:00
-author:     "Raymond,[Wufujian](https://ng-fukgin.github.io/)"
+author:     "Raymond,Wufujian"
 catalog: false
 header-style: text
 tags:
@@ -16,7 +16,7 @@ tags:
 ## 内地到香港过关
 ### 过关前的准备
 1、签证问题问题，当拿到了香港的visa之后，我们还需要去当地的出入境管理局(或者是公安局)预约办理内地的签证。
-![](\img\blog\hongkongrecords\1.PNG)
+[](\img\blog\hongkongrecords\1.PNG)
 
 2、来之前需要在淘宝购买一张电话卡用于登记隔离时的身份信息
 ![](\img\blog\hongkongrecords\2.png) 推荐这一张30天有效期+20g流量，应付前期在香港的使用绰绰有余。
