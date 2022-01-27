@@ -3,7 +3,7 @@ layout:     post
 title:      "香港生活"
 subtitle:   "初来香港我们应该做什么？"
 date:       2022-01-26 17:58:00
-author:     "Raymond,Wufujian"
+author:     "Raymond,[Wufujian](https://ng-fukgin.github.io/)"
 catalog: false
 header-style: text
 tags:
